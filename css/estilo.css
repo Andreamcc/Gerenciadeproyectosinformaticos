@@ -1,0 +1,172 @@
+#principal {
+        width: 900px;
+        height: auto; overflow: hidden;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 1px solid #b85eb8;
+            
+        margin: auto; 
+        background: rgba(255,161,117,1);
+        background: -moz-linear-gradient(left, rgba(255,161,117,1) 0%, rgba(128,138,255,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,161,117,1)), color-stop(100%, rgba(128,138,255,1)));
+        background: -webkit-linear-gradient(left, rgba(255,161,117,1) 0%, rgba(128,138,255,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,161,117,1) 0%, rgba(128,138,255,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,161,117,1) 0%, rgba(128,138,255,1) 100%);
+        background: linear-gradient(to right, rgba(255,161,117,1) 0%, rgba(128,138,255,1) 100%);
+        
+        
+        -webkit-box-shadow: 10px 10px 142px 67px rgba(255,207,255,1);
+        -moz-box-shadow: 10px 10px 142px 67px rgba(255,207,255,1);
+        box-shadow: 10px 10px 142px 67px rgba(255,207,255,1);
+        }
+
+header {
+    width: 900px;
+    height: 150px;
+}
+
+#logo{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-left:15px;
+    margin-top:15px;
+}
+
+.menu{
+    width: 650px;
+    height: 40px;
+    border: 1px solid rgb(224, 224, 224);
+    float: right;
+    margin-top: 112px;
+    margin-right: 15px;
+    background: rgba(128,138,255,1);
+}
+
+.menu ul li {
+    list-style:none;
+    float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: rgba(128,138,255,1);
+    transition: background 1s, color 1s;
+
+}
+
+#slide{
+    margin-top:0px;
+    width: 900px;
+    height: 250px;
+}
+
+#categorias{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid; 
+    margin-top:0px;
+}
+.uno{
+    width: 270px;
+    height: 500; overflow: hidden;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+.dos{
+    width: 270px;
+    height: 500; overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.leer-mas{
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+
+.leer-mas:hover{
+    background:#006699;
+    color: #fff; 
+    transition: background 1s, color 1s;
+
+}
+
+#info{
+    width:900px;
+    height: auto; overflow: hidden;
+   
+    margin-top: 10px;
+}
+
+#izq{
+    width: 590px;
+    height: 300px;
+    border: 1px solid #000000
+
+}
+
+#der{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #000000;
+    float: right;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#formulario{
+    width: 432px;
+    height: auto;
+    overflow: hidden;
+    
+    padding: 5px;
+    float:left;
+}
+
+#mapa{
+    width: 432px;
+    height: auto;
+    overflow: hidden;
+    
+    padding: 5px;
+    float:right;
+}
+
+.titulo-contacto{
+    text-align: center;
+}
+
+.foto{
+    position: center;
+}
+
+.contador{
+    margin-right: 9000px;
+    margin-top: 1px;
+    margin-left: 390px;
+  
+
+}
+
+.twitter-follow-button{
+    margin-right: 4000px;
+    margin-top: 1px;
+    margin-left: 390px;
+    float: center;
+}
+
